@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "todo-app"
+version = "0.1.0"
+description = "Todo App with FastAPI and Next.js"
+authors = ["Percy Tejada Donayre <percytejada.code@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.115.5"
+uvicorn = {extras = ["standard"], version = "^0.32.0"}
+alembic = "^1.14.0"
+psycopg2 = "^2.9.10"
+pytest = "^8.3.3"
+requests = "^2.32.3"
+pydantic-settings = "^2.6.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,45 @@
+# Entorno de Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+.env.*
+
+# Archivos de configuración de Poetry
+poetry.lock
+.pdm.toml
+
+# Archivos de entorno virtual de Poetry
+# Incluye esta línea solo si prefieres que Poetry instale los entornos virtuales dentro de la carpeta del proyecto
+# .venv/
+
+# Archivos de base de datos de desarrollo y cachés
+/backend/alembic/versions/*.
+/backend/alembic/*
+*.sqlite3
+*.db
+
+# Archivos de Alembic
+/backend/alembic.ini
+
+# Archivos de logs
+*.log
+
+# Configuración de Pytest
+.pytest_cache/
+.cache/
+
+# Archivos generados
+dist/
+build/
+
+# Configuración de IDEs y otros editores
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Ignorar el archivo .env en la raíz del proyecto (si lo tienes)
+ .env
